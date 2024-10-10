@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Challenge - The Rocket City Connection</title>
+    <link href="https://fonts.cdnfonts.com/css/autobus" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <h1>CTF Challenge: The Rocket City Connection</h1>
+            <p>Huntsville, Alabama, known as "Rocket City," is pivotal in the U.S. space program, particularly due to its role in developing the Saturn V rocket at NASA's Marshall Space Flight Center. This vibrant city is rich in history and innovation, making it a hub for aerospace and technology. Prepare to explore 10 questions that will test your knowledge about this remarkable city!</p>
+        </div>
+    </header>
+    <main>
+        <h2>Challenges</h2>
+        <div id="questions-container" class="questions-box">
+            <div class="question" id="question1">
+                <p>What is Huntsville most known for?</p>
+                <input type="text" id="answer1" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(1)">Submit</button>
+                <p class="feedback" id="feedback1"></p>
+            </div>
+            <div class="question" id="question2" style="display:none;">
+                <p>What major space facility is located in Huntsville?</p>
+                <input type="text" id="answer2" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(2)">Submit</button>
+                <p class="feedback" id="feedback2"></p>
+            </div>
+            <div class="question" id="question3" style="display:none;">
+                <p>What annual event celebrates the city's space heritage?</p>
+                <input type="text" id="answer3" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(3)">Submit</button>
+                <p class="feedback" id="feedback3"></p>
+            </div>
+            <div class="question" id="question4" style="display:none;">
+                <p>What is the name of the large park in Huntsville that features a botanical garden?</p>
+                <input type="text" id="answer4" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(4)">Submit</button>
+                <p class="feedback" id="feedback4"></p>
+            </div>
+            <div class="question" id="question5" style="display:none;">
+                <p>Which famous rocket was developed in Huntsville?</p>
+                <input type="text" id="answer5" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(5)">Submit</button>
+                <p class="feedback" id="feedback5"></p>
+            </div>
+            <div class="question" id="question6" style="display:none;">
+                <p>What is the name of the historic district in Huntsville?</p>
+                <input type="text" id="answer6" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(6)">Submit</button>
+                <p class="feedback" id="feedback6"></p>
+            </div>
+            <div class="question" id="question7" style="display:none;">
+                <p>What is a popular outdoor activity in Huntsville?</p>
+                <input type="text" id="answer7" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(7)">Submit</button>
+                <p class="feedback" id="feedback7"></p>
+            </div>
+            <div class="question" id="question8" style="display:none;">
+                <p>What is the largest university in Huntsville?</p>
+                <input type="text" id="answer8" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(8)">Submit</button>
+                <p class="feedback" id="feedback8"></p>
+            </div>
+            <div class="question" id="question9" style="display:none;">
+                <p>What unique museum can you find in Huntsville?</p>
+                <input type="text" id="answer9" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(9)">Submit</button>
+                <p class="feedback" id="feedback9"></p>
+            </div>
+            <div class="question" id="question10" style="display:none;">
+                <p>What else was Huntsville famously known for?</p>
+                <input type="text" id="answer10" class="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button onclick="checkAnswer(10)">Submit</button>
+                <p class="feedback" id="feedback10"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Good luck with the challenges!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
